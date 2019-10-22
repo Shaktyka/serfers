@@ -121,10 +121,20 @@ img {
 
 /* Navigation */
 
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .main-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.site-name {
+  text-transform: uppercase;
 }
 
 /*  */
