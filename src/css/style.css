@@ -114,6 +114,9 @@ img {
 }
 
 .btn--link {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #8dc2f4;
+
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
   font-size: 9px;
@@ -331,6 +334,64 @@ img {
   font-weight: 300;
   color: #ce60a8;
   letter-spacing: -0.1px;
+}
+
+/* ARTICLES */
+
+.article__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.42px;
+}
+
+.article__text {
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+/* Subscribe */
+
+.subscribe__title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.42px;
+}
+
+.subscribe__desc {
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  color: #616161;
+}
+
+/* Camp */
+
+.camp__suptitle {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  font-size: 9px;
+  font-weight: 620;
+  text-transform: uppercase;
+  color: #0b0c11;
+  letter-spacing: 5.58px;
+}
+
+.camp__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.32px;
+}
+
+.camp__link {
+  color: #8dc2f4;
 }
 
 /* FOOTER */
