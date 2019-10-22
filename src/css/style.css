@@ -113,11 +113,31 @@ img {
   border: none;
 }
 
+.btn--link {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 5.4px;
+}
+
+.btn--buy {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 5.4px;
+}
+
 /* ХЕДЕР */
 
 .header {
   width: 100%;
   background-color: #ffffff;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #8cc1f3;
 }
 
 /* LOGO */
@@ -179,6 +199,7 @@ img {
 .slide__desc {
   font-family: 'Poppins', sans-serif;
   line-height: 24px;
+  letter-spacing: 0.35px;
 }
 
 .controls__num {
@@ -223,7 +244,13 @@ img {
   letter-spacing: 5.4px;
 }
 
-/*  */
+/* ABOUT SURFING */
+
+.surfing__desc {
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
 
 /* VIDEO */
 
@@ -239,10 +266,71 @@ img {
 
 /* SHOP */
 
+.shop__suptitle {
+  display: block;
+  margin-bottom: 4px;
+  text-align: center;
+
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #5da8ef;
+  letter-spacing: 5.4px;
+}
+
+.shop__title {
+  text-align: center;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.42px;
+}
+
 .shop .slider__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* Product */
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product__category {
+  align-self: flex-start;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.product__title {
+  align-self: flex-start;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.26px;
+}
+
+.product__price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ce60a8;
+  letter-spacing: -0.1px;
 }
 
 /* FOOTER */
