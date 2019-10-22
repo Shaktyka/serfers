@@ -33,6 +33,7 @@
 /* font-family: 'Fira Sans', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
+/* font-family: 'League Spartan', sans-serif; */
 
 /* Общие стили */
 
@@ -119,6 +120,12 @@ img {
   background-color: #ffffff;
 }
 
+/* LOGO */
+
+.logo__link {
+  display: flex;
+}
+
 /* Navigation */
 
 .nav-wrap {
@@ -133,21 +140,110 @@ img {
   flex-wrap: wrap;
 }
 
-.site-name {
+.main-menu__item {
+  font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  color: #0b0c11;
+  letter-spacing: 5.58px;
+}
+
+.site-name {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  color: #0b0c11;
+  letter-spacing: 5.4px;
+}
+
+/* Promo Slider */
+
+.slide__text {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  color: #5da8ef;
+  letter-spacing: 5.58px;
+}
+
+.slide__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  font-weight: 700;
+  color: #0b0c11;
+}
+
+.slide__desc {
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+}
+
+.controls__num {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #5da8ef;
+}
+
+/* MAIN */
+
+/* Quotation */
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.quote__text {
+  width: 610px;
+  margin: 0;
+  margin-bottom: 26px;
+  padding: 0;
+
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.26px;
+}
+
+.quote__author {
+  font-family: 'League Spartan', 'Arial', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 5.4px;
 }
 
 /*  */
 
-/* MAIN */
+/* VIDEO */
 
-/*  */
+.surfing__video {
+  position: relative;
+}
 
-/*  */
+.surfing__video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-/*  */
+/* SHOP */
 
-/*  */
+.shop .slider__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /* FOOTER */
 
