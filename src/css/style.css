@@ -30,6 +30,10 @@
   font-style: normal;
 }*/
 
+/* font-family: 'Fira Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
 /* Общие стили */
 
 html,
@@ -37,11 +41,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-family: 'Geometria', Arial, sans-serif;
-  font-size: 10px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.25;
-  font-weight: 400;
-  color: #8E80A9;
+  font-weight: 300;
+  color: #616161;
 }
 
 *, *::before, *::after {
