@@ -1,8 +1,8 @@
 {
-  "name": "yoga",
+  "name": "serfers",
   "version": "1.0.0",
   "private": true,
-  "description": "Адаптивный проект Yoga",
+  "description": "Serfers Magazine",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "browser-sync": "2.26.7",
