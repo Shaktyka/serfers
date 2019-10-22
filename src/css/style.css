@@ -102,12 +102,10 @@ img {
   outline: 1px solid gray;
 }
 
-/*.container {
-  max-width: 320px;
+.container {
+  max-width: 1225px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}*/
+}
 
 .btn {
   background-color: transparent;
@@ -121,23 +119,27 @@ img {
   background-color: #ffffff;
 }
 
+/* Navigation */
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*  */
+
+/* MAIN */
+
 /*  */
 
 /*  */
 
 /*  */
 
-
 /*  */
 
-
-/*  */
-
-/*  */
-
-/*  */
-
-/* ФУТЕР */
+/* FOOTER */
 
 /*  */
 
