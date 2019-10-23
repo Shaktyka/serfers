@@ -282,22 +282,55 @@ img {
 
 /* ABOUT SURFING */
 
+.surfing .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.surfing__info-wrap {
+  width: 614px;
+  padding-top: 52px;
+  padding-right: 155px;
+  padding-left: 118px;
+}
+
 .surfing__desc {
   font-family: 'Poppins', sans-serif;
   line-height: 24px;
   letter-spacing: 0.35px;
+  margin-bottom: 42px;
 }
 
 /* VIDEO */
 
 .surfing__video {
   position: relative;
+  display: flex;
+  margin-top: -512px;
+  margin-left: 519px;
 }
 
 .surfing__video-poster {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.btn--play {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(50% - 33px);
+  left: calc(50% - 33px);
+  width: 66px;
+  height: 66px;
+  background-color: #5da8ef;
+
+  border-radius: 50%;
 }
 
 /* SHOP */
