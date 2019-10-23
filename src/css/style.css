@@ -142,7 +142,6 @@ img {
 .header {
   width: 100%;
   background-color: #ffffff;
-  padding-bottom: 7px;
   border-bottom: 2px solid #8cc1f3;
 }
 
@@ -233,11 +232,16 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   width: 509px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .slide__text {
   display: block;
+  margin-bottom: 22px;
 
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
@@ -245,9 +249,13 @@ img {
   font-weight: 700;
   color: #5da8ef;
   letter-spacing: 5.58px;
+
+  opacity: 0.9;
 }
 
 .slide__title {
+  margin-bottom: 15px;
+
   font-family: 'Playfair Display', serif;
   font-size: 62px;
   font-weight: 700;
@@ -262,25 +270,57 @@ img {
 
 .controls {
   position: absolute;
-  bottom: 0;
+  bottom: 3px;
   left: 0;
-  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.controls__btn {
+  display: flex;
+  padding: 0;
+}
+
+.controls__btn--prev {
+  margin-right: 18px;
+}
+
+.controls__btn--next {
+  margin-left: 18px;
 }
 
 .controls__num {
   font-family: 'League Spartan', 'Arial', sans-serif;
   font-size: 10px;
   font-weight: 700;
+  color: #262626;
+}
+
+.controls__num--curr {
   color: #5da8ef;
+}
+
+.controls__devider {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #ebebeb;
 }
 
 /* Social */
 
 .social {
+  position: absolute;
+  bottom: 0;
+  right: -55px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.social__link {
+  display: flex;
 }
 
 .social__item:not(:last-child) {
@@ -626,6 +666,7 @@ img {
 }
 
 .footer .social {
+  position: static;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
