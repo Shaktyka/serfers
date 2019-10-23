@@ -74,6 +74,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 img {
@@ -109,8 +110,10 @@ img {
 }
 
 .btn {
+  display: inline-block;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .btn--link {
@@ -387,7 +390,28 @@ img {
 
 /* Camp */
 
+.camp .container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.camp__img {
+  width: 720px;
+  height: 475px;
+}
+
+.camp__desc {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+}
+
 .camp__suptitle {
+  margin-bottom: 48px;
+
   font-family: 'League Spartan', 'Arial', sans-serif;
   font-size: 9px;
   font-weight: 620;
@@ -397,6 +421,10 @@ img {
 }
 
 .camp__title {
+  width: 345px;
+  padding-left: 50px;
+  margin-bottom: 55px;
+
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   line-height: 46px;
@@ -406,6 +434,7 @@ img {
 }
 
 .camp__link {
+  align-self: self-start;
   color: #8dc2f4;
 }
 
