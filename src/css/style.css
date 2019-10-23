@@ -235,10 +235,25 @@ img {
 /* Quotation */
 
 .quote .container {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+
+  padding-top: 182px;
+  padding-bottom: 217px;
+}
+
+.quote .container::before {
+  position: absolute;
+  content: '';
+  bottom: 62px;
+  left: calc(50% - 1 px);
+  width: 2px;
+  height: 100px;
+  background-color: #5da8ef;
 }
 
 .quote__text {
