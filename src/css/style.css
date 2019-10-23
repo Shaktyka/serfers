@@ -335,6 +335,11 @@ img {
 
 /* SHOP */
 
+.shop .container {
+  padding-top: 190px;
+  padding-bottom: 174px;
+}
+
 .shop__suptitle {
   display: block;
   margin-bottom: 4px;
@@ -358,10 +363,19 @@ img {
   letter-spacing: 0.42px;
 }
 
+.shop__slider {
+  margin-bottom: 80px;
+}
+
 .shop .slider__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.shop__link-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 /* Product */
