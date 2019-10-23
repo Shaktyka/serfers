@@ -148,6 +148,10 @@ img {
 
 /* LOGO */
 
+.logo {
+  margin-right: 190px;
+}
+
 .logo__link {
   display: flex;
   width: 16px;
@@ -157,15 +161,25 @@ img {
 /* Navigation */
 
 .nav-wrap {
+  position: relative;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+
+  padding-top: 38px;
+  padding-bottom: 45px;
 }
 
 .main-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.main-menu__item:not(:last-child) {
+  margin-right: 46px;
 }
 
 .main-menu__item {
@@ -177,13 +191,25 @@ img {
   letter-spacing: 5.58px;
 }
 
+.main-menu__item a {
+  opacity: 0.9;
+}
+
 .site-name {
+  position: absolute;
+  content: '';
+  top: 168px;
+  right: 0;
+
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
   font-size: 9px;
   font-weight: 700;
   color: #0b0c11;
   letter-spacing: 5.4px;
+
+  transform: rotate(-90deg);
+  opacity: 0.2;
 }
 
 /* Promo Slider */
