@@ -199,7 +199,7 @@ img {
   position: absolute;
   content: '';
   top: 168px;
-  right: 0;
+  right: -180px;;
 
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
@@ -214,7 +214,31 @@ img {
 
 /* Promo Slider */
 
+.promo__slider {
+  position: relative;
+}
+
+.slider__item {
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.slide__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 509px;
+}
+
 .slide__text {
+  display: block;
+
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
   font-size: 9px;
@@ -234,6 +258,13 @@ img {
   font-family: 'Poppins', sans-serif;
   line-height: 24px;
   letter-spacing: 0.35px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
 }
 
 .controls__num {
