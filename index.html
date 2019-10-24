@@ -230,9 +230,10 @@
       <div class="container">
         <span class="shop__suptitle">Shop</span>
         <h2 class="shop__title">Surfboards</h2>
+        <!-- Shop Slider -->
         <div class="slider shop__slider">
           <ul class="slider__list">
-            <!-- 1st -->
+            <!-- 1st slide -->
             <li class="slider__item product product--1">
               <!-- Block with image -->
               <p class="product__img img-wrap">
@@ -242,11 +243,13 @@
               <div class="product__info">
                 <span class="product__category">Funboards</span>
                 <h3 class="product__title">Chilli Rare Bird</h3>
-                <span class="product__price">$890</span>
-                <a class="btn btn--buy product__buy" href="#">Buy</a>
+                <div class="product__price-wrap">
+                  <span class="product__price">$890</span>
+                  <a class="btn btn--buy product__buy" href="#">Buy</a>
+                </div>
               </div>
             </li>
-            <!-- 2nd -->
+            <!-- 2nd slide -->
             <li class="slider__item product product--2">
               <!-- Block with image -->
               <p class="product__img img-wrap">
@@ -256,11 +259,13 @@
               <div class="product__info">
                 <span class="product__category">Surfboards</span>
                 <h3 class="product__title">Emery NEM XF</h3>
-                <span class="product__price">$950</span>
-                <a class="btn btn--buy product__buy" href="#">Buy</a>
+                <div class="product__price-wrap">
+                  <span class="product__price">$950</span>
+                  <a class="btn btn--buy product__buy" href="#">Buy</a>
+                </div>
               </div>
             </li>
-            <!-- 3st -->
+            <!-- 3st slide -->
             <li class="slider__item product product--3">
               <!-- Block with image -->
               <p class="product__img img-wrap">
@@ -270,11 +275,22 @@
               <div class="product__info">
                 <span class="product__category">Funboards</span>
                 <h3 class="product__title">Agency GROM</h3>
-                <span class="product__price">$670</span>
-                <a class="btn btn--buy product__buy" href="#">Buy</a>
+                <div class="product__price-wrap">
+                  <span class="product__price">$670</span>
+                  <a class="btn btn--buy product__buy" href="#">Buy</a>
+                </div>
               </div>
             </li>
           </ul>
+          <!-- Shop Slider Controls -->
+          <div class="controls slider__controls shop__slider-controls">
+            <button class="btn btn--control" type="button">
+              <span class="v-hidden">Prev</span>
+            </button>
+            <button class="btn btn--control" type="button">
+              <span class="v-hidden">Next</span>
+            </button>
+          </div>
         </div>
         <div class="shop__link-wrap">
           <a class="btn btn--link shop__link" href="#">Show all</a>

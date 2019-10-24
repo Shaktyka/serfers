@@ -109,6 +109,8 @@ img {
 }
 
 .btn--buy {
+  display: block;
+
   font-family: 'League Spartan', 'Arial', sans-serif;
   text-transform: uppercase;
   font-size: 9px;
@@ -461,15 +463,25 @@ img {
 
 /* Product */
 
+.product {
+  display: flex;
+  align-items: flex-end;
+}
+
+.product__img {
+  display: flex;
+  background: linear-gradient(to top, #ececec 0%, #ececec 320px, #ffffff 320px);
+}
+
 .product__info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .product__category {
   align-self: flex-start;
+  margin-bottom: 5px;
 
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -480,6 +492,7 @@ img {
 
 .product__title {
   align-self: flex-start;
+  margin-bottom: 38px;
 
   font-family: 'Playfair Display', serif;
   font-size: 26px;
@@ -489,7 +502,14 @@ img {
   letter-spacing: 0.26px;
 }
 
+.product__price-wrap {
+  padding-left: 55px;
+}
+
 .product__price {
+  display: block;
+  margin-bottom: 5px;
+
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 300;
