@@ -461,14 +461,16 @@ img {
 
 .shop .controls__btn--prev {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: -82px;
+  bottom: 149px;
+  margin-right: 0;
 }
 
 .shop .controls__btn--next {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -82px;
+  bottom: 149px;
+  margin-left: 0;
 }
 
 .shop__link-wrap {
