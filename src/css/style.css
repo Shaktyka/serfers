@@ -22,6 +22,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  background-image: url('../img/bg/bg-water.jpg'), url('../img/bg/bg-surfer.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center 38%, center 91%;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.25;
@@ -677,6 +683,8 @@ img {
 .camp__desc {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   padding-left: 45px;
 }
 
@@ -689,6 +697,8 @@ img {
   text-transform: uppercase;
   color: #0b0c11;
   letter-spacing: 5.58px;
+
+  opacity: 0.27;
 }
 
 .camp__title {
